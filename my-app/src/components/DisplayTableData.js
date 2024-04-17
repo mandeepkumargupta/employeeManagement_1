@@ -149,7 +149,7 @@ const DisplayTableData = ({ itemList,setItemList, showTable, toggleTable }) => {
       {deleteItemId && (
   <div className="popup">
     <h3>Confirmation</h3>
-    <p>Are you sure you want to delete this item?</p>
+    <p>Do you want to delete the employee's record?</p>
     <div className="button-container">
       <button onClick={handleConfirmDelete} className="confirm-button">Yes</button>
       <button onClick={() => setDeleteItemId(null)} className="cancel-button">Cancel</button>
